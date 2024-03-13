@@ -1,5 +1,10 @@
 <script lang="ts">
+	import { App, KonstaProvider } from 'konsta/svelte';
 	import '../app.pcss';
 </script>
 
-<slot />
+<KonstaProvider theme="material">
+	<App theme="material">
+		<slot />
+	</App>
+</KonstaProvider>
