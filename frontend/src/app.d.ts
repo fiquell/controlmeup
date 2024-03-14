@@ -5,6 +5,7 @@ declare global {
 	namespace App {
 		interface TabbarItems {
 			name: string;
+			href: string;
 			icon: ComponentType<Icon>;
 		}
 	}
