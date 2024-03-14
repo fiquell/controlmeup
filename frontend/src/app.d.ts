@@ -8,6 +8,11 @@ declare global {
 			href: string;
 			icon: ComponentType<Icon>;
 		}
+
+		interface ActionItems {
+			name: string;
+			icon: ComponentType<Icon>;
+		}
 	}
 }
 
